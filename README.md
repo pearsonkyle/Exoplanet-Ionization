@@ -1,3 +1,11 @@
+<img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22087_hires.jpg" alt="" data-canonical-src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22087_hires.jpg" width=50% height=50% />
+Credit: NASA/JPL
+
+A planet's atmosphere absorbs specific wavelengths of the star's light that reveal the atmosphere's chemical composition.
+IMAGE: European Southern Observatory
+
+
+
 Exoplanets orbiting close to their host star are expected to support a large ionosphere, which extends to larger pressures than witnessed in our solar system. These ionospheres can be investigated with ground-based observations of the optical signatures of alkali metals, which are the source of the ions. Alkali metals produce prominent features in optical transit spectra of exoplanets, e.g. the Na and K doublets at 589.3 and 766.4 nm, respectively. These metals readily ionize in the hot atmospheres of close-in exoplanets and are predicted to produce an extensive ionosphere more like that of a star, rather than Jupiter. Measurements of alkali densities are essential to understand the structures of the spectroscopically observable exoplanets as the ions affect the temperature structure and circulation (through ohmic dissipation and ion drag). 
 
 ## Dependecies 
