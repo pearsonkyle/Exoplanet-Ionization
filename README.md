@@ -1,10 +1,6 @@
-<img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22087_hires.jpg" alt="" data-canonical-src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22087_hires.jpg" width=50% height=50% />
-Credit: NASA/JPL
+![](https://github.com/pearsonkyle/Exoplanet-Ionization/raw/master/main_picture.jpg)
 
-A planet's atmosphere absorbs specific wavelengths of the star's light that reveal the atmosphere's chemical composition.
 IMAGE: European Southern Observatory
-
-
 
 Exoplanets orbiting close to their host star are expected to support a large ionosphere, which extends to larger pressures than witnessed in our solar system. These ionospheres can be investigated with ground-based observations of the optical signatures of alkali metals, which are the source of the ions. Alkali metals produce prominent features in optical transit spectra of exoplanets, e.g. the Na and K doublets at 589.3 and 766.4 nm, respectively. These metals readily ionize in the hot atmospheres of close-in exoplanets and are predicted to produce an extensive ionosphere more like that of a star, rather than Jupiter. Measurements of alkali densities are essential to understand the structures of the spectroscopically observable exoplanets as the ions affect the temperature structure and circulation (through ohmic dissipation and ion drag). 
 
@@ -20,7 +16,8 @@ This repo can help calculate the alkali abundances in exoplanetary atmospheres s
 
 ![](https://raw.githubusercontent.com/pearsonkyle/Exoplanet-Ionization/master/Na_balance_equation.png)
 
-in each layer of a 1D atmosphere to derive the Na mixing ratio profile as a function of pressure. An example output looks something like this: 
+in each layer of a 1D atmosphere to derive the Na mixing ratio profile as a function of pressure ([Pearson et al. 2018](https://arxiv.org/abs/1811.02060)
+). An example output looks something like this: 
 
 ![](https://github.com/pearsonkyle/Exoplanet-Ionization/raw/master/photoionization_xo2b.png)
 
@@ -54,7 +51,7 @@ archivePrefix = {arXiv},
 
 ## Computing Rate Coefficients
 
-Radiative recombintion, thermal ionization and 3-body recombination can be easily calculated using the ion() class in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py). Photoionization is also supported but requires some additional parameters regarding the exoplanet's atmosphere (See [XO2b_Na_profile.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/XO2b_Na_Profile.py)). This code currently supports the atoms: Na, K, Li and H. Additional atoms must be added in separately using the same format as the dictionaries for atoms (See line ~27 in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py#L27)). An example of how to compute certain rate coefficients: 
+Radiative recombintion, thermal ionization and 3-body recombination can be easily calculated using the [ion()](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py#L40) class in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py). Photoionization is also supported but requires some additional parameters regarding the exoplanet's atmosphere (See [XO2b_Na_profile.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/XO2b_Na_Profile.py)). This code currently supports the atoms: Na, K, Li and H. Additional atoms must be added in separately using the same format as the dictionaries for atoms (See line ~27 in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py#L27)). An example of how to compute certain rate coefficients: 
 
 ```python
 from Ionization import ion, NaI
