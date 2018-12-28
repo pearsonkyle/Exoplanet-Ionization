@@ -28,25 +28,17 @@ Please cite the following article if you make use of this code and smash that st
 
 [Ground-based Spectroscopy of the Exoplanet XO-2b using a Systematic Wavelength Calibartion](https://arxiv.org/abs/1811.02060)
 
-Here is an example bibtex (as of 12/21/2018)
-```
-@ARTICLE{Pearson2018,
-       author = {{Pearson}, Kyle A. and {Griffith}, Caitlin A. and {Zellem}, Robert T.
-        and {Koskinen}, Tommi T. and {Roudier}, Gael M.},
-        title = "{Ground-based Spectroscopy of the Exoplanet XO-2b using a Systematic
-        Wavelength Calibration}",
-      journal = {arXiv e-prints},
-     keywords = {Astrophysics - Earth and Planetary Astrophysics},
-         year = 2018,
-        month = Nov,
-          eid = {arXiv:1811.02060},
-        pages = {arXiv:1811.02060},
-archivePrefix = {arXiv},
-       eprint = {1811.02060},
- primaryClass = {astro-ph.EP},
-       adsurl = {https://ui.adsabs.harvard.edu/\#abs/2018arXiv181102060P},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+``` 	
+@article{1538-3881-157-1-21,
+  author={Kyle A. Pearson and Caitlin A. Griffith and Robert T. Zellem and Tommi T. Koskinen and Gael M. Roudier},
+  title={Ground-based Spectroscopy of the Exoplanet XO-2b Using a Systematic Wavelength Calibration},
+  journal={The Astronomical Journal},
+  volume={157},
+  number={1},
+  pages={21},
+  url={http://stacks.iop.org/1538-3881/157/i=1/a=21},
+  year={2019},
+}	
 ```
 
 ## Computing Rate Coefficients
