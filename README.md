@@ -24,9 +24,9 @@ in each layer of a 1D atmosphere to derive the Na mixing ratio profile as a func
 
 
 ## Citing this repository
-Please cite the following article if you make use of this code and smash that star button
+Please cite the following article if you make use of this code in anyway and hit that star button
 
-[Ground-based Spectroscopy of the Exoplanet XO-2b using a Systematic Wavelength Calibartion](https://arxiv.org/abs/1811.02060)
+[Ground-based Spectroscopy of the Exoplanet XO-2b using a Systematic Wavelength Calibartion](http://iopscience.iop.org/article/10.3847/1538-3881/aaf1ae)
 
 ``` 	
 @article{1538-3881-157-1-21,
@@ -43,7 +43,7 @@ Please cite the following article if you make use of this code and smash that st
 
 ## Computing Rate Coefficients
 
-Radiative recombintion, thermal ionization and 3-body recombination can be easily calculated using the [ion()](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py#L40) class in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py). Photoionization is also supported but requires some additional parameters regarding the exoplanet's atmosphere (See [XO2b_Na_profile.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/XO2b_Na_Profile.py)). This code currently supports the atoms: Na, K, Li and H. Additional atoms must be added in separately using the same format as the dictionaries for atoms (See line ~27 in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py#L27)). An example of how to compute certain rate coefficients: 
+Radiative recombintion, thermal ionization and 3-body recombination can be easily calculated using the [ion()](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py#L40) class in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py). Photoionization is also supported but requires some additional parameters regarding the exoplanet's atmosphere (See [XO2b_Na_profile.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/XO2b_Na_Profile.py)). An example of how to compute certain rate coefficients: 
 
 ```python
 from Ionization import ion, NaI
@@ -87,9 +87,11 @@ For additional support see the main block of code in [Ionization.py](https://git
 
 
 ## References for the rate coefficients
-This code currently supports the atoms: Na, K, H and Li. Additional atoms are supported but must follow the same format as the dictionaries for the current atoms in Ionization.py. Coefficients for each dictionary can be found here
+This code currently supports Na. Additional atoms must be added in separately using the same format as the dictionaries for atoms (See line ~27 in [Ionization.py](https://github.com/pearsonkyle/Exoplanet-Ionization/blob/master/Ionization.py#L27)). Coefficients for each dictionary can be found here
 - Radiative recombination rates - [Verner 1996a](http://adsabs.harvard.edu/abs/1996ApJS..103..467V)
 - Photoionization cross sections - [Verner 1996b](http://adsabs.harvard.edu/abs/1996ApJ...465..487V)
 - Ionization rate coefficients of atoms by electron impact - [Voronov 1997](http://adsabs.harvard.edu/abs/1997ADNDT..65....1V)
 - 3 body recombination - 
 
+## Things to improve 
+- support for additional ions (e.g. K, Li, H)

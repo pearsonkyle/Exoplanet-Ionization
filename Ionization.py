@@ -31,9 +31,18 @@ NaI = {
     'ionization_thermal':{'dE':5.1,'P':1,'A':0.101e-6,'X':0.275,'k':0.23} # cm^3/s
 }
 
+
 HI = {
-    'ionization_crosssection':{'E0':4.298e-1,'sigma0':5.475e4,'ya':3.288e1,'P':2.963,'yw':0,'y0':0,'y1':0}
-    #'ionization_crosssection':{'E0':6.139,'sigma0':1.601,'ya':6.148e3,'P':3.839,'yw':0,'y0':0,'y1':0},
+    'ionization_crosssection':{'E0':4.298e-1,'sigma0':5.475e4,'ya':3.288e1,'P':2.963,'yw':0,'y0':0,'y1':0},
+    'recombination_radiative':{'a':7.982e-11,'b':0.7480,'T0':3.148,'T1':7.036e5}, # cm^3 s^-1
+    'ionization_thermal':{'dE':13.6,'P':0,'A':0.291e-7,'X':0.232,'k':0.39} # cm^3/s
+}
+
+
+LiI = {
+    'ionization_crosssection':{'E0':3.107,'sigma0':6.245e1,'ya':1.501e1,'P':4.895,'yw':0,'y0':0,'y1':0}, # cm^2
+    'recombination_radiative':{'a':1.036e-11,'b':0.388,'T0':1.077e2,'T1':1.177e7}, # cm^3 s^-1
+    'ionization_thermal':{'dE':5.4,'P':0,'A':0.139e-6,'X':0.438,'k':0.41} # cm^3/s
 }
 
 
