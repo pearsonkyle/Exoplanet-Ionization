@@ -16,7 +16,7 @@ This repo can help calculate the alkali abundances in exoplanetary atmospheres s
 
 ![](https://raw.githubusercontent.com/pearsonkyle/Exoplanet-Ionization/master/Na_balance_equation.png)
 
-in each layer of a 1D atmosphere to derive the Na mixing ratio profile as a function of pressure ([Pearson et al. 2018](https://arxiv.org/abs/1811.02060)
+in each layer of a 1D atmosphere to derive the Na mixing ratio profile as a function of pressure ([Pearson et al. 2019](https://arxiv.org/abs/1811.02060)
 ). An example output looks something like this: 
 
 ![](https://github.com/pearsonkyle/Exoplanet-Ionization/raw/master/photoionization_xo2b.png)
